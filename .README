@@ -13,4 +13,7 @@ Requirements to run this code:
 - then rollback scipy with `pip  install scipy ==1.10.1`
 This is required because gensim uses the 'triu' class which was deprecated in newer versions.
 
+-then "pip install matplotlib"
+This is used to create the visualizations seen in the presentation
+
 Run the file `train_models.py` first before running any other file. This only needs to be down once unless you want to retrain.
